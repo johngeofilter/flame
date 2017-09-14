@@ -1,0 +1,58 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-family: sans-serif;
+}
+
+#header{
+	background-color: #322f2e;
+	width: calc(100% - 20px);
+	padding: 10px;
+	height: 100px;
+	text-align: center;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-weight: 100;
+}
+
+#flame_app{
+	background-color: #ccc;
+	height: calc(100% - 120px);
+	text-align: center;
+}
+
+#graphics_lib{
+	background-color: #009a9a;
+	color: white;
+	width: 35%;
+	float: left;
+	margin-top: 10px;
+	padding-top: 10px;
+	height: calc(100% - 20px);
+	
+}
+
+#canvas_container{
+	background-color: #21c5c1;
+	width: 65%;
+	float: left;
+	margin-top: 10px;
+	padding-top: 10px;
+	height: calc(100% - 20px);
+	
+}
+
+#c{
+	border:1px solid white;
+	background-image: url(base.png);
+	background-size: 180px;
+
+	
+	
+}
+
+

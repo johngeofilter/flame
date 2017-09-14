@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Flame</title>
+	<link rel="stylesheet" type="text/css" href="flame.css">
+	<!--script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script async type="text/javascript" src="canvas.js"></script-->
+
+	<script src="fabric.js"></script>
+	<!--script src="https://cdn.rawgit.com/konvajs/konva/1.6.5/konva.min.js"></script>
+	<script async type="text/javascript" src="myKonvas.js"></script-->
+</head>
+<body>
+	<div id="header">
+		<h1>Project Flame - GEOFILTER STUDIO</h1>
+	</div>
+	<div id="flame_app">
+		<div id="graphics_lib">
+			Our Graphics library goes here<br>
+			<input type="button" value="Google" id="google" >
+			<input type="button" value="GeofilterStudio" id="geofilter" >
+		</div>
+		<div id="canvas_container">
+			<p>Our canvas goes here</p>
+			
+			
+			<canvas id="c" width=300 height=500></canvas>
+			
+			<script>
+
+				var canvas = new fabric.Canvas('c');
+
+				// create a rectangle object
+				var rect = new fabric.Rect({
+				  left: 100,
+				  top: 100,
+				  fill: 'red',
+				  width: 20,
+				  height: 20
+				});
+
+				// "add" rectangle onto canvas
+				canvas.add(rect);
+
+			</script>
+
+		</div>
+	</div>
+	
+
+</body>
+</html>
